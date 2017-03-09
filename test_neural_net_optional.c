@@ -4,10 +4,6 @@
 #include <string.h>
 #include "fann.h"
 
-/******************** assignment (D) **************************
- *  CODE to include header file to drive LED by mraa library  *
- **************************************************************/
-
 int main(int argc, char **argv)
 {
     int i;
@@ -22,9 +18,6 @@ int main(int argc, char **argv)
     size_t len = 0;
     FILE *f;
 
-    /********************** assignment (D) ************************
-     *       CODE to declare variables for driving LEDs (gpio)    *
-     **************************************************************/
 
     // set input_file_name to "test.txt", which is the file contains rssi inputs, if there is no argumnet
     if (argc != 2) {
