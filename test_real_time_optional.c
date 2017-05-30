@@ -141,7 +141,7 @@ int main(int argc, char **argv)
 			rssi1 = "-80";				// set rssi1 to -80 assuming access point 1 has minimum rssi value because it can't be detected
 			printf("Access point : %s not detected\n", mac1); 
 			/********************* assignment (C) *************************
- 			 * 	  	CODE to turn on LED when RSSI is not detected 	      *
+ 			 * 	  CODE to turn on LED when RSSI is not detected       *
  			 **************************************************************/
 		}
 		flag = 0;						// reset the flag for rssi2 and rssi3
